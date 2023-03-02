@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QR_code_App</string>
+    <string-array name="type">
+        <item>Phone</item>
+        <item>Tablet</item>
+    </string-array>
+</resources>

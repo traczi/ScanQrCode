@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Activity.material.AddMaterial">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="Add-Material"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:text="Type d'appareil : "
+        android:textSize="17sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/type_material"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_input"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="12dp"
+        android:text="Model : "/>
+    <EditText
+        android:id="@+id/model_material"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Référence : "
+        android:textSize="17sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="30dp"/>
+    <EditText
+        android:id="@+id/ref_material"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lien : "
+        android:textSize="17sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="30dp"/>
+    <EditText
+        android:id="@+id/lien_material"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/bt_addMaterialManager"
+        android:onClick="bt_addMaterialManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="30dp"
+        android:text="Add-Material"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>
